@@ -2,7 +2,7 @@ from PySide2 import QtWidgets
 import currency_converter
 
 
-#cd env #cd Scripts #source activate
+
 class App(QtWidgets.QWidget):
     def __init__(self) :
         super().__init__()
@@ -51,9 +51,8 @@ class App(QtWidgets.QWidget):
         self.setStyleSheet("""
         background-color: rgb(30,30,30);
         color: rgb(240,240,240);
-        
         """)
-    #border: none;
+    
 
 
     def compute(self):
